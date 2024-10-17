@@ -20,6 +20,7 @@ let package = Package(
             name: "PinCodeInputView",
             path: "PinCodeInputView",  // Update to reflect the correct path to your source files
             exclude: [],  // Exclude unnecessary files if needed
+            sources: ["**/*.{swift,m,h}"], 
             publicHeadersPath: nil  // Set if there are Objective-C headers, otherwise leave as nil
         ),
     ],
